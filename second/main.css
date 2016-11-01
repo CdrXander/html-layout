@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+section {
+	width:100vw;
+	height:100vh;
+}
+
+.column {
+	height:100%;
+	width: calc(100% / 3);
+	float:left;
+}
+
+.one {
+	background-color: #4A90E2;
+}
+
+.two {
+	background-color: #50E3C2;
+}
+
+.three {
+	height: 80%;
+	background-color: #B8E986;
+}
+
+.img-sub {
+	height: 20%;
+	color: white;
+	background-color: #D0021B;
+	font-size: 30px;
+	text-align: center;
+
+	line-height: 190px;
+	white-space: nowrap;
+}
+

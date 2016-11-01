@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+	background-color: #D8D8D8;
+}
+
+header {
+	background-color: #444444;
+	height: 15vh;
+}
+
+section {
+	width:100vw;
+	height: 85vh;
+	text-align: center;
+}
+
+/*.column {
+	float:left;
+}
+*/
+/*.page-margin {
+	width: 15%;
+	height: 100%;
+	background-color: #D8D8D8;
+}*/
+
+.page-content {
+	margin-left: 15%;
+	width:70%;
+	height: 90%;
+	background-color: #EFEFEF;
+}
+
+.page-footer {
+	margin-left:15%;
+	width:70%;
+	height: 10%;
+	background-color: #222222;
+}
